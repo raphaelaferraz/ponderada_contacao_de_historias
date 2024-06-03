@@ -10,4 +10,5 @@ public class BancoDeDadosContext : DbContext
     }
 
     public DbSet<Historia> Historia { get; set; }
+    public DbSet<Usuario> Usuario { get; set; }
 }
